@@ -79,7 +79,7 @@ holiday_hash.each do |key,value|
       puts "#{key.to_s.capitalize!}:"
         value.each do |key,value|
           symbol = symbol_to_s(key)
-          puts "\s\s#{symbol}: #{value.join(",")}"
+          puts "\s\s#{symbol}: #{value.join(", ")}"
         end
     end
 end
